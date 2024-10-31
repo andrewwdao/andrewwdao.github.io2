@@ -13,7 +13,7 @@ footer_text: >
     Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: wireless, wireless-communication, wireless-comm, cognitive-radio, ISAC, electrical-engineer, network-engineer, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 😊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🅰️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://andrewwdao.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -52,7 +52,7 @@ socials_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1080px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -107,11 +107,14 @@ wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
 x_username: # your X handle
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: andrewwdao # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-    "It's a leap of faith." - Spiderman (Into the Spider-Verse)
+    "It's a leap of faith." - Into the Spider-Verse
+# *This website uses Google Analytics (which uses cookies) to collect basic anonymous data for website statistics.
+# You are free to disable cookies or enable Do Not Track.
+# The opinions stated here are my own, not necessarily those of my employer.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -158,21 +161,6 @@ giscus:
     theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
     emit_metadata: 0
     lang: en
-
-# Disqus comments (DEPRECATED)
-# disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
-# external_sources:
-#     - name: medium.com
-#       rss_url: https://medium.com/@al-folio/feed
-#     - name: Google Blog
-#       posts:
-#           - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-#             published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -431,7 +419,7 @@ enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
+enable_darkmode: false # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
